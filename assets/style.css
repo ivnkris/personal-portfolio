@@ -61,11 +61,12 @@ main {
 .heading--container {
   flex: 1 0 25%;
   border: 1px solid green;
+  margin-top: 5rem;
 }
 
 .heading--container h2 {
   text-align: right;
-  margin: 1rem 2rem;
+  margin: 0 2rem;
 }
 
 .portfolio--container {
@@ -136,6 +137,10 @@ main {
     align-self: center;
     padding: 1rem;
     font-size: 1.5 rem;
+  }
+
+  .heading--container {
+    margin-top: 0;
   }
 
   .heading--container h2 {
