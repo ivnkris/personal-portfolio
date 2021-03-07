@@ -24,6 +24,7 @@ main {
   flex-wrap: wrap;
 }
 
+/* main content section containers */
 .element-container {
   display: flex;
   flex: 1 0 100%;
@@ -34,28 +35,31 @@ main {
   border: 1px solid green;
 }
 
-/* main content section containers */
 .portfolio--container {
-  flex: 1 0 75%;
   display: flex;
   flex-wrap: wrap;
   border: 1px solid pink;
 }
 
-.portfolio--item {
-  min-width: 20rem;
-  min-height: 20rem;
-  border: 1px solid blue;
-}
-
 .about-me--container {
-  flex: 1 0 75%;
   border: 1px solid pink;
 }
 
 .contact-me--container {
-  flex: 1 0 75%;
   border: 1px solid pink;
+}
+
+.portfolio--container,
+.about-me--container,
+.contact-me--container {
+  flex: 1 0 75%;
+}
+
+/* section item cards */
+.portfolio--item {
+  min-width: 20rem;
+  min-height: 20rem;
+  border: 1px solid blue;
 }
 
 /* footer content container */
@@ -71,24 +75,15 @@ main {
 
 /* mobile phone layout */
 @media screen and (max-width: 767px) {
-  header {
-    flex-direction: column;
-  }
-
-  nav {
+  header,
+  nav,
+  main,
+  .element-container {
     flex-direction: column;
   }
 
   nav a {
     align-self: center;
-  }
-
-  main {
-    flex-direction: column;
-  }
-
-  .element-container {
-    flex-direction: column;
   }
 
   .portfolio--item {
