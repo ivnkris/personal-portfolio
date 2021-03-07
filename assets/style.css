@@ -16,6 +16,11 @@ nav {
 }
 
 nav a {
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+  margin: 0 1rem;
+  font-size: 1.8rem;
   border: solid 1px green;
 }
 
@@ -33,6 +38,10 @@ main {
 .heading--container {
   flex: 1 0 25%;
   border: 1px solid green;
+}
+
+.heading--container h2 {
+  text-align: right;
 }
 
 .portfolio--container {
@@ -84,6 +93,10 @@ main {
 
   nav a {
     align-self: center;
+  }
+
+  .heading--container h2 {
+    text-align: left;
   }
 
   .portfolio--item {
