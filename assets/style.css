@@ -1,6 +1,6 @@
-body {
-  margin: 0;
+html {
   font-size: 10px;
+  margin: 0;
 }
 
 header {
@@ -21,24 +21,24 @@ nav a {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.element-container {
+  display: flex;
+  flex: 1 0 100%;
 }
 
 .heading--container {
+  flex: 1 0 25%;
+  border: 1px solid green;
 }
 
 /* main content section containers */
 .portfolio--container {
+  flex: 1 0 75%;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid pink;
-}
-
-.about-me--container {
-  border: 1px solid pink;
-}
-
-.contact-me--container {
   border: 1px solid pink;
 }
 
@@ -46,6 +46,16 @@ main {
   min-width: 20rem;
   min-height: 20rem;
   border: 1px solid blue;
+}
+
+.about-me--container {
+  flex: 1 0 75%;
+  border: 1px solid pink;
+}
+
+.contact-me--container {
+  flex: 1 0 75%;
+  border: 1px solid pink;
 }
 
 /* footer content container */
