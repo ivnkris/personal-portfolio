@@ -21,6 +21,12 @@ nav a {
 
 main {
   display: flex;
+  /* flex-direction: column; */
+}
+
+.element-container {
+  display: flex;
+  flex-direction: row;
 }
 
 /* heading flex item container */
@@ -34,10 +40,15 @@ main {
 .portfolio--container,
 .about-me--container,
 .contact-me--container {
-  flex-wrap: wrap;
+  flex-grow: 1;
   flex-basis: 70%;
   border: 1px solid pink;
-  flex-grow: 1;
+}
+
+.portfolio--item {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid blue;
 }
 
 /* footer content container */
