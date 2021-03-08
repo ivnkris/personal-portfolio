@@ -80,6 +80,7 @@ main {
 }
 
 .contact-me--container {
+  display: flex;
   border: 1px solid pink;
 }
 
