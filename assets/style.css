@@ -100,6 +100,11 @@ main {
   margin-left: 5rem;
 }
 
+.first-image {
+  width: 250px;
+  height: 250px;
+}
+
 .portfolio--description {
   font-size: 1.2rem;
 }
