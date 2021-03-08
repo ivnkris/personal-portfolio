@@ -152,6 +152,70 @@ footer {
     text-decoration: underline;
     transform: scale(1.1, 1.1);
   }
+
+  .animation-1 {
+    animation: floatInFromRight 2s ease-out;
+  }
+
+  .animation-2 {
+    animation: floatInFromRight 3s ease-out;
+  }
+
+  .animation-3 {
+    animation: floatInFromRight 4s ease-out;
+  }
+
+  .animation-4 {
+    animation: enlarge 1s ease-out 4s;
+  }
+
+  .animation-5 {
+    animation: enlarge 1s ease-out 5s;
+  }
+
+  .animation-6 {
+    animation: enlarge 1s ease-out 6s;
+  }
+
+  .animation-7 {
+    animation: enlarge 1s ease-out 7s;
+  }
+
+  .animation-8 {
+    animation: enlarge 1s ease-out 8s;
+  }
+
+  .animation-9 {
+    animation: enlarge 1s ease-out 9s;
+  }
+
+  .animation-10 {
+    animation: enlarge 1s ease-out 10s;
+  }
+
+  @keyframes floatInFromRight {
+    0% {
+      transform: translateX(-50rem);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes enlarge {
+    0% {
+      transform: scale();
+    }
+
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+
+    100% {
+      transform: scale();
+    }
+  }
 }
 
 /* tablet screen styles */
