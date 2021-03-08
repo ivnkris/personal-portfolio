@@ -67,6 +67,7 @@ main {
 .heading--container h2 {
   text-align: right;
   margin: 0 2rem;
+  font-size: 2rem;
 }
 
 .portfolio--container {
@@ -92,9 +93,20 @@ main {
 
 /* section item cards */
 .portfolio--item {
-  min-width: 20rem;
-  min-height: 20rem;
+  margin: 2.5rem;
+  font-size: 1.6rem;
   border: 1px solid blue;
+}
+
+.portfolio--description {
+  font-size: 1.2rem;
+}
+
+.about-me--container p {
+  font-size: 1.5rem;
+  max-width: 100rem;
+  margin: 2.5rem;
+  text-align: justify;
 }
 
 /* footer content container */
