@@ -228,6 +228,10 @@ footer {
     font-size: 1.25rem;
     align-self: center;
   }
+
+  .about-me--container p {
+    margin: 2rem 5rem;
+  }
 }
 
 /* mobile phone layout */
