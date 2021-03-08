@@ -70,6 +70,10 @@ main {
   font-size: 2rem;
 }
 
+.contact-me {
+  margin-top: 2.5rem;
+}
+
 .portfolio--container {
   display: flex;
   flex-wrap: wrap;
@@ -125,7 +129,7 @@ main {
 
 /* footer styles */
 footer {
-  margin-top: 3rem;
+  margin: 3rem;
 }
 .footer--content {
   text-align: center;
@@ -134,6 +138,9 @@ footer {
 
 /* desktop screen animations */
 @media screen and (min-width: 993px) {
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 /* tablet screen styles */
