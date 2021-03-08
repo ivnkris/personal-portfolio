@@ -1,3 +1,4 @@
+/* colour palette */
 :root {
   --nyanza: #d8f3dc;
   --turquoise-green: #b7e4c7;
@@ -50,7 +51,6 @@ nav a {
 main {
   display: flex;
   flex-wrap: wrap;
-  min-height: 80vh;
 }
 
 /* main content section containers */
@@ -101,6 +101,15 @@ main {
   max-width: 100rem;
   margin: 2.5rem;
   text-align: justify;
+}
+
+.about-me--img {
+  float: left;
+  max-width: 15%;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 100%;
+  box-shadow: 2px -1px 10px #4d4d4d;
 }
 
 .contact-me--item {
